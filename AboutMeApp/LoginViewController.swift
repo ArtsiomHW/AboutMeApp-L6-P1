@@ -93,7 +93,7 @@ private extension LoginViewController {
         //Calculate of login content heigh
         let emptySpaceHight = view.frame.size.height - loginStackView.frame.maxY
         
-        //Calculate the difference where content being covered
+        //Calculate the difference where content is covered
         let coveredContentHight = keyboardHeight - emptySpaceHight
         
         print("Keyboard height: \(keyboardHeight)")
